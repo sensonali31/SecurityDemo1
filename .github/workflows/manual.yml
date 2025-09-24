@@ -22,3 +22,7 @@ jobs:
       - name: Run unit tests
         run: mvn test
 
+      - name: Run OWASP Dependency Check
+        run: mvn org.owasp:dependency-check-maven:check
+
+
