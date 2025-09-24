@@ -1,7 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Security Testing
-
+name: CI
 
 on:
   push:
